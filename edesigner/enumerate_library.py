@@ -55,6 +55,9 @@ def parse_args():
                         repo are used.""",
                         type=str,
                         default=None)
+    
+
+
     # from eDESIGNER
 
     parser.add_argument('-wF', '--wfolder',
@@ -83,7 +86,7 @@ def parse_args():
                         help="""How many compounds can be enumerated in a single core.
                         Default: 400000""",
                         type=int,
-                        default=400000)
+                        default=400000000)
     parser.add_argument('-wj', '--write_json',
                         help="""When invoked the script will create the json config file for enumeration and gather 
                         building blocks but it will not conduct the actual enumeration.""",
@@ -91,6 +94,10 @@ def parse_args():
     parser.add_argument('-v', '--verbose',
                         help="""When invoked the script will provide additional information in the standart output.""",
                         action='store_true')
+    
+    parser.add_argument('-output_dir', '--output_dir',
+                        help="""path to outputdir""",
+                        type=str)
 
     args = parser.parse_args()
     if args.user:
@@ -172,16 +179,20 @@ def main():
         else:
             PARFOLDER = os.path.abspath(os.environ['EDESIGNER_PARFOLDER'])
             print(f'INFO::: PARFOLDER has been set to {PARFOLDER}')
-        increment = 1
-        enum_id = "ENUSER_" + str(increment)
-        while True:
-            if os.path.isdir(os.path.join(args.efolder, enum_id)):
-                increment += 1
-                enum_id = "ENUSER_" + str(increment)
-            else:
-                break
-        wfolder = os.path.abspath(os.path.join(args.efolder, enum_id))
-        os.mkdir(wfolder)
+        if args.output_dir is not None:
+            wfolder = os.path.abspath(args.output_dir)
+            os.makedirs(wfolder, exist_ok=True)
+        else:
+            increment = 1
+            enum_id = "ENUSER_" + str(increment)
+            while True:
+                if os.path.isdir(os.path.join(args.efolder, enum_id)):
+                    increment += 1
+                    enum_id = "ENUSER_" + str(increment)
+                else:
+                    break
+            wfolder = os.path.abspath(os.path.join(args.efolder, enum_id))
+            os.mkdir(wfolder)
     # read parameters
     multireaction = Parameters(os.path.join(PARFOLDER, 'multireaction.par'), fsource='list', how='to_list', multiple=True)
     preparations = Parameters(os.path.join(PARFOLDER, 'preparations.par'), fsource='list', how='to_list', multiple=True)
@@ -196,9 +207,12 @@ def main():
         print('ERROR::: could not detect headpiede from lib_id')
         sys.exit(1)
 
-
+    if args.output_dir is not None:
+        bbs_prepared = True
+    else:
+        bbs_prepared = False
     enumerator = Enumerator(wfolder, lib_id, hp_smiles, args.user, bbs=args.bbs_file, lib=lib, base_folder=args.wfolder,
-                            verbose=args.verbose)
+                            verbose=args.verbose, bbs_prepared=bbs_prepared)
     enumerator.print_summary_file(enum_reaction, enum_deprotection)
     enumerator.run_graph_enumeration(multireaction, preparations, enum_deprotection, enum_reaction,
                                      n=args.nmols, chunksize=args.nc_per_run, just_json=args.write_json)

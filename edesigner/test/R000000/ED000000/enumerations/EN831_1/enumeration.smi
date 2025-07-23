@@ -1,0 +1,8 @@
+[13CH3]CCN(CC1=C(OC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NC1=CC=C(N(=O)=O)C=C1 headpiece+9:enamine_test:EN300-45228674+11:enamine_test:EN300-20963+15:enamine_test:EN300-6502766
+[13CH3]CCN(CC1=C(OC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NC1=CC(=CC=C1)N(=O)=O headpiece+9:enamine_test:EN300-45228674+11:enamine_test:EN300-140686+15:enamine_test:EN300-6502766
+[13CH3]CCN(CC1=C(OC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NCC#C headpiece+9:enamine_test:EN300-45228674+6:enamine_test:EN300-112450+15:enamine_test:EN300-6502766
+[13CH3]CCN(CC1=C(OC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NC1=CC(=CC=C1Br)N(=O)=O headpiece+9:enamine_test:EN300-45228674+11:enamine_test:EN300-8194429+15:enamine_test:EN300-6502766
+[13CH3]CCN(C(C1=CSC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NC1=CC=C(N(=O)=O)C=C1 headpiece+9:enamine_test:EN300-1165837+11:enamine_test:EN300-20963+15:enamine_test:EN300-6502766
+[13CH3]CCN(C(C1=CSC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NC1=CC(=CC=C1)N(=O)=O headpiece+9:enamine_test:EN300-1165837+11:enamine_test:EN300-140686+15:enamine_test:EN300-6502766
+[13CH3]CCN(C(C1=CSC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NCC#C headpiece+9:enamine_test:EN300-1165837+6:enamine_test:EN300-112450+15:enamine_test:EN300-6502766
+[13CH3]CCN(C(C1=CSC(=C1)Br)C1=NN=C(O1)C1=CC=CN1C1=C(C=C(N(=O)=O)C=C1)C#N)C(=S)NC1=CC(=CC=C1Br)N(=O)=O headpiece+9:enamine_test:EN300-1165837+11:enamine_test:EN300-8194429+15:enamine_test:EN300-6502766

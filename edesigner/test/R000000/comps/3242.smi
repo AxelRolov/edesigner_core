@@ -1,0 +1,3 @@
+O=C(O)C1=NC(Cl)=C(N(=O)=O)C=C1 11:enamine_test:EN300-110367
+O=C(O)C1=CC(Cl)=NC=C1N(=O)=O 11:enamine_test:EN300-99079
+O=C(O)C1=CC(=CN=C1Cl)N(=O)=O 11:enamine_test:EN300-98412

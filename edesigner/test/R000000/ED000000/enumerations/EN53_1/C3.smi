@@ -1,0 +1,5 @@
+O=C(O)C1=C(NC)C(=CC=C1)N(=O)=O 13:enamine_test:EN300-128903
+O=C(O)C1=CC(=C(NC)C=C1)N(=O)=O 13:enamine_test:EN300-09753
+O=C(O)C1=NC(=C(N(=O)=O)C=C1)NC 13:enamine_test:EN300-134012
+N#CC1=CC(=C(N(=O)=O)C=C1)NC 11:enamine_test:EN300-192311
+FC1=CC(=C(C=C1NC)NC)N(=O)=O 13:enamine_test:EN300-98015

@@ -97,7 +97,6 @@ class SynthNode:
 
             ini_lines = self.countlines(self.bbsfile)
             if not prep['keep_unprepared']:
-                print("****")
                 print('preparation', prep["reaction"])
                 print('bbsfile', self.bbsfile)
             command = f'{self.trxn}'
@@ -116,7 +115,6 @@ class SynthNode:
                 if ini_lines != end_lines:
                     print(f'WARNING::: There were {ini_lines - end_lines} compounds lost in this reaction')
                     print('command:', command)
-                print("*****")
             command = f'mv {outfile} {self.bbsfile}'
             os.system(command)
             if self.node == 0:
@@ -126,7 +124,7 @@ class SynthNode:
 class SynthGraph:
     """class that specifies the graph based enumeration"""
 
-    def __init__(self, wfolder, config_file, n=0, chunksize=400000):
+    def __init__(self, wfolder, config_file, n=0, chunksize=40000000):
         """constructor of the instance
         wfolder: str: path to a folder where files are stored
         config_file: str: path to the json config file
@@ -376,6 +374,7 @@ class SynthGraph:
         command += f' -S {os.path.join(self.wfolder, "products")}'
         command += f' -z f -z i -W "+" -l -i smi -g all -A D'
         command += f' {bb_files}'
+        print("!"*50)
         print(command)
         os.system(command)
 
@@ -386,8 +385,8 @@ class SynthGraph:
         """conducts enumeration using the edge joining a node and products
         node: int: index for the node to join
         """
-        print('')
-        print(f'INFO::: Joining node {node}')
+        #print('')
+        #print(f'INFO::: Joining node {node}')
         # set file names
         scaffolds_file = os.path.join(self.wfolder, 'R00.smi')
         reactive_file = os.path.join(self.wfolder, 'R00reactive.smi')
@@ -419,6 +418,7 @@ class SynthGraph:
             if n1 + n2t * n3 > self.n:
                 reduce_output = True
         # determine if the reaction must be performed in parallel through qsub and eventually run it
+    
         if n2t * n3 > self.chunksize:
             # run reaction in multiple nodes through qsub
             print('INFO::: Running job in the HPC')
@@ -486,8 +486,8 @@ class SynthGraph:
         """conducts a cyclization reaction for the specified edge
         edge: int: index for this edge
         cycle_bond_order: int, bond order of the bond to be created"""
-        print('')
-        print(f'INFO::: cycling edge {edge}')
+        #print('')
+        #print(f'INFO::: cycling edge {edge}')
         # set file names
         scaffolds_file = os.path.join(self.wfolder, 'R00.smi')
         reactive_file = os.path.join(self.wfolder, 'R00reactive.smi')
@@ -712,6 +712,8 @@ class SynthGraph:
                     if cycle_edge not in cycles:
                         cycles.append(cycle_edge)
                         self.cycle_node(cycle_edge, cycle_bond_order)
+
+        #print(os.path.join(self.wfolder, "R00.smi"), os.path.join(self.wfolder, "enumeration.smi"))
         os.rename(os.path.join(self.wfolder, "R00.smi"), os.path.join(self.wfolder, "enumeration.smi"))
         os.rename(os.path.join(self.wfolder, "RP00.smi"), os.path.join(self.wfolder, "R00.smi"))
 

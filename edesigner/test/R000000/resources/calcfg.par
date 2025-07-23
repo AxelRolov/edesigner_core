@@ -1,0 +1,20 @@
+fieldname	index	name	rule_add	rule_substract
+data type	int	str	str	str
+list mark			;	;
+comment		Calculated FG name	higher level FGs	Lower level FGs
+value	0	calc_EXCLUDED_BORONICS	all_boronics	boronics_aromatic
+value	1	calc_NITRO	nitro	nitro_fluoro;o_nitro_sec_aniline
+value	2	calc_ARYLHALIDE	arylhalide	o_iodo_aniline;o_iodo_sec_aniline
+value	3	calc_AMINES_AROMATIC_PRIMARY	amines-aromatic-primary	o_iodo_aniline;o_amino_phenols;o_amino_thiophenols
+value	4	calc_EXCLUDED_KETONES	all_ketones	ynones;ketones_a_bromo
+value	5	calc_EXCLUDED_AMIDINES	all_amidines	amidines_primary;amidines_secondary
+value	6	calc_EXCLUDED_GUANIDINES	all_guanidines	guanidines_secondary_primary;guanidines_secondary_secondary;guanidines_tertiary_primary;guanidines_tertiary_secondary
+value	7	calc_PHENOLS	phenols	o_amino_phenols
+value	8	calc_THIOPHENOLS	thiophenols	o_amino_thiophenols
+value	9	calc_NAS_ELECTROPHILE	NAS_electrophile	triazine_dichloro;triazine_chloro;nitro_fluoro
+value	10	calc_AMINES_AROMATIC_SECONDARY_1	amines_aromatic_secondary_1	o_nitro_sec_aniline;o_iodo_sec_aniline
+value	11	calc_EXCLUDED_HYDRAZINES	all_hydrazines	hydrazines_primary
+value	12	calc_EXCLUDED_HALIDES_ALKYL	all_halides_alkyl	ketones_a_bromo
+value	13	calc_EXCLUDED_BOC	all_boc	sec_boc;tert_boc;sec_aniline_boc;tert_aniline_boc
+value	14	calc_EXCLUDED_HALOHETEROCYCLE	haloheterocycle	NAS_electrophile
+value	15	calc_EXCLUDED_ACTIVATED_ALKYNES	alkynes_activated	ynones

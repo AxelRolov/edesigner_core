@@ -1,0 +1,34 @@
+log file created on: Tue Jul 16 18:22:29 2024
+e_bbt_creator.v.12.0.0
+Alfredo Martin
+Generating BB types...
+INFO::: Working in bbs file ./dbs/enamine_test.smi
+INFO::: Adding 2117 compounds to the desalted compounds pool
+INFO::: eliminating duplicated smiles
+INFO::: level 1 filetering by heavy atoms and rotatable bonds
+INFO::: Annotating compounds with properties
+INFO::: Annotating anti FG
+INFO::: Adding calc_FG to antifg
+INFO::: Working on 2117 compounds
+INFO::: Filtering componds by antifg
+INFO::: 2117 compounds to process
+INFO::: 2117 compounds remaining
+INFO::: Adding calc_FG to fg
+INFO::: Working on 2117 compounds
+INFO::: Filtering componds by fg
+INFO::: 2117 compounds to process
+INFO::: 2117 compounds remaining
+INFO::: Annotatingg BBTs
+INFO::: annotating 2117 bbs
+INFO::: 2117 bbs remain after annotation
+INFO::: 856 unique BBTs found in compounds
+INFO::: filtering by effective number heavy atoms and rotatable bonds
+INFO::: 2117 bbs remain after filtering
+INFO::: 856 unique BBTs remain after filtering
+INFO::: Reporting compounds...
+INFO::: Reported 856 BBT files...
+INFO::: Updating BBTs...
+INFO::: BBTs updated...
+Run time = 0.2 min
+the run ID for this run is R000000
+OK

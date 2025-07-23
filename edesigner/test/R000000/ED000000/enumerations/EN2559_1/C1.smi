@@ -1,0 +1,8 @@
+N#CC1=CN(CCO)N=C1N 10:enamine_test:EN300-82528
+N#CC1=C(N)N(N=C1)CCO 10:enamine_test:EN300-70133
+N#CC1=C(C#C)C=CC=C1N 10:enamine_test:EN300-27081370
+N#CC1=C(N)C=C(C#C)C=C1 10:enamine_test:EN300-7551095
+N#CC1=CC(=CC=C1N)C#C 10:enamine_test:EN300-7551078
+N#CC1=CC(=CC=C1N)N(=O)=O 10:enamine_test:EN300-18331
+N#CC1=C(C=C(N)C=C1)N(=O)=O 10:enamine_test:EN300-203103
+N#CC1=CC(=C(N)C=C1)N(=O)=O 10:enamine_test:EN300-19048

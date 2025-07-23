@@ -1,0 +1,12 @@
+(0 Reaction
+  (A C Comment "join_by_isotope_01")
+  (0 Scaffold
+    (A  C smarts "[1*]")
+    (A I isotope (0 0))
+  )
+  (1 Sidechain
+    (A C smarts "[1*]")
+    (A I isotope (0 0))
+    (A I join (0 0 1))
+  )
+)

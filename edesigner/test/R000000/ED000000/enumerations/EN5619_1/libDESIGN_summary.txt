@@ -1,0 +1,8 @@
+LIBRARY SUMMARY:
+Library_id: (3, 0, 0, 0, 42, 41, 25, 0, 0, 0, 0, 2, 5, 44)
+Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN5619_1
+Headpiece_smiles: [13CH3]CO
+Add cycle 1 through reaction: X.X.X_Nucleophilic_substitution_FROM_alcohols_AND_amines_aliphatic
+Add cycle 2 through reaction: 9.7.8_Amino_to_guanidino_FROM_amines_aliphatic_AND_amines_aliphatic_primary.rxn
+Add cycle 3 through reaction: 4.1.12_Imidazole_synthesis_FROM_guanidines_tertiary_all_AND_ketones_a_bromo.rxn
+

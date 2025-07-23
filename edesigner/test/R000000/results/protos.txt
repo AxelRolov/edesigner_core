@@ -1,0 +1,9 @@
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/sec_fmoc.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/tert_fmoc.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/sec_aniline_boc.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/tert_aniline_boc.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/amines_aliphatic_primary.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/amines_aromatic_primary.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/NAS_electrophile.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/sec_boc.proto
+/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/queries/tert_boc.proto

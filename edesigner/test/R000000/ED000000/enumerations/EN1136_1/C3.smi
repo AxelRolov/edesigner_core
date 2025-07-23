@@ -1,0 +1,4 @@
+BrCC(=O)C1=CC=C(C#C)C=C1 10:enamine_test:EN300-7949410
+BrCC(=O)C1=CC=C(N(=O)=O)C=C1 10:enamine_test:EN300-18582
+BrCC(=O)C1=CC(=CC=C1)N(=O)=O 10:enamine_test:EN300-20767
+BrCC(=O)C1=CC(=CC(Br)=C1)C(=O)OC 10:enamine_test:EN300-37085054

@@ -1,0 +1,9 @@
+LIBRARY SUMMARY:
+Library_id: (3, 0, 12, 0, 16, 8, 9, 0, 3, 0, 0, 4, 5, 3)
+Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN599_1
+Headpiece_smiles: [13CH3]CNC
+Add cycle 1 through reaction: 2.3.2_Isothiocyanate_+_amine_thiourea_coupling_FROM_amines_aliphatic_AND_isothiocyanates.rxn
+Add Deprotection at cycle 1: X.X.X_Triazine-Dichloro_FROM_boc_AND_Null.prxn
+Add cycle 2 through reaction: 1.7.11_NAS_FROM_triazine_dichloro_AND_NAS_nucleophile.rxn
+Add cycle 3 through reaction: 1.7.11_NAS_FROM_triazine_monochloro_AND_NAS_nucleophile.rxn
+

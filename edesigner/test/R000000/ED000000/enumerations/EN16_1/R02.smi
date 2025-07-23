@@ -1,0 +1,7 @@
+[2CH]1=C(NC)C(=CC=C1)N(=O)=O 11:enamine_test:EN300-7440604
+[2CH]1=CC(=C(NC)C=C1)N(=O)=O 11:enamine_test:EN300-04766
+[2CH]1=CC(=CC(Br)=C1)C#C 9:enamine_test:EN300-7761742
+[2CH]1=CC(=CC(=C1)C(=O)O)N(=O)=O 11:enamine_test:EN300-6185902
+[2CH]1=C(C(=CC=C1)C(=O)O)N(=O)=O 11:enamine_test:EN300-215091
+[2CH]1=C(C=C(N(=O)=O)C=C1)C(=O)O 11:enamine_test:EN300-4417586
+[2CH]1=CC(=CC(I)=C1)CO 9:enamine_test:EN300-7502325

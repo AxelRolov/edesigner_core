@@ -7,8 +7,8 @@ max_scaffolds_na	int		maximum number of atoms coming from scaffolds for each lib
 headpiece_na	int		Number of atoms of the headpiece that will be transferred to the final molecule atom count	2
 min_count	int		Minimum member of compounds in the library if it was produced with internal or with all compounds (depending on how parameter)	1
 include_designs	str		(PRODUCTION, BOTH) Which classes of reactions can be included (only production or both production and development)	BOTH
-designs_in_memory	int		Number of designs that can be held in memory to expand to the next cycle	20000
-hpc	bool		whether to use HPC parallelization in eDESIGNER script	TRUE
-hpc_cores	int		how many cores we want per node in the hpc	4
+designs_in_memory	int		Number of designs that can be held in memory to expand to the next cycle	200000000
+hpc	bool		whether to use HPC parallelization in eDESIGNER script	False
+hpc_cores	int		how many cores we want per node in the hpc	1
 
 

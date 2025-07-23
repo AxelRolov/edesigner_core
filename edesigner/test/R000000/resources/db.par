@@ -1,0 +1,7 @@
+fieldname	db	filename
+data type	str	str
+list mark
+comment	name given to the collection	folder where the collection file is stored
+value	Enamine300	${EDESIGNER_TEST_FOLDER}/dbs/enamine_micro.smi
+
+

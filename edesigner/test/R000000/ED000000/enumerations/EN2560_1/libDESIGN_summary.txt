@@ -1,0 +1,8 @@
+LIBRARY SUMMARY:
+Library_id: (3, 0, 0, 0, 13, 43, 36, 0, 0, 0, 0, 3, 6, 5)
+Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN2560_1
+Headpiece_smiles: [13CH3]CC(=O)O
+Add cycle 1 through reaction: 2.1.2_Carboxylic_acid_+_amine_condensation_FROM_carboxylic_acids_AND_amines.rxn
+Add cycle 2 through reaction: X.X.X_124_oxadiazole_synthesis_FROM_nitriles_AND_carboxylic_acids
+Add cycle 3 through reaction: 4.3.9_Benzothiazole_synthesis_FROM_o_amino_thiophenols_AND_isothiocyanates.rxn
+

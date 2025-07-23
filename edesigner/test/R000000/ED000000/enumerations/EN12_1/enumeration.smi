@@ -1,0 +1,12 @@
+[13CH3]CNC1=C(C(=CC=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCCCC(=O)O)N(=O)=O headpiece+10:enamine_test:EN300-114286+13:enamine_test:EN300-340107+9:enamine_test:EN300-144140
+[13CH3]CNC1=C(C(=CC=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCCSCC(=O)O)N(=O)=O headpiece+10:enamine_test:EN300-114286+13:enamine_test:EN300-340107+10:enamine_test:EN300-1459005
+[13CH3]CNC1=C(C(=CC=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCC(=O)NCCO)N(=O)=O headpiece+10:enamine_test:EN300-114286+13:enamine_test:EN300-340107+10:enamine_test:EN300-6738201
+[13CH3]CNC1=C(C(=CC=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCCC#N)N(=O)=O headpiece+10:enamine_test:EN300-114286+13:enamine_test:EN300-340107+6:enamine_test:EN300-6732873
+[13CH3]CNC1=C(N(=O)=O)C=CC(=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCCCC(=O)O headpiece+10:enamine_test:EN300-154750+13:enamine_test:EN300-340107+9:enamine_test:EN300-144140
+[13CH3]CNC1=C(N(=O)=O)C=CC(=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCCSCC(=O)O headpiece+10:enamine_test:EN300-154750+13:enamine_test:EN300-340107+10:enamine_test:EN300-1459005
+[13CH3]CNC1=C(N(=O)=O)C=CC(=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCC(=O)NCCO headpiece+10:enamine_test:EN300-154750+13:enamine_test:EN300-340107+10:enamine_test:EN300-6738201
+[13CH3]CNC1=C(N(=O)=O)C=CC(=N1)C(=O)NC1=C2CCN(CC2=C(CO)C=C1)C(=S)NCCC#N headpiece+10:enamine_test:EN300-154750+13:enamine_test:EN300-340107+6:enamine_test:EN300-6732873
+[13CH3]CNC1=C(C=C(C(=O)NC2=C3CCN(CC3=C(CO)C=C2)C(=S)NCCCC(=O)O)C=N1)N(=O)=O headpiece+10:enamine_test:EN300-189323+13:enamine_test:EN300-340107+9:enamine_test:EN300-144140
+[13CH3]CNC1=C(C=C(C(=O)NC2=C3CCN(CC3=C(CO)C=C2)C(=S)NCCSCC(=O)O)C=N1)N(=O)=O headpiece+10:enamine_test:EN300-189323+13:enamine_test:EN300-340107+10:enamine_test:EN300-1459005
+[13CH3]CNC1=C(C=C(C(=O)NC2=C3CCN(CC3=C(CO)C=C2)C(=S)NCC(=O)NCCO)C=N1)N(=O)=O headpiece+10:enamine_test:EN300-189323+13:enamine_test:EN300-340107+10:enamine_test:EN300-6738201
+[13CH3]CNC1=C(C=C(C(=O)NC2=C3CCN(CC3=C(CO)C=C2)C(=S)NCCC#N)C=N1)N(=O)=O headpiece+10:enamine_test:EN300-189323+13:enamine_test:EN300-340107+6:enamine_test:EN300-6732873

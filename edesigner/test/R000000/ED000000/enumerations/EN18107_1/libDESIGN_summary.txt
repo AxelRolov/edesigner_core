@@ -1,0 +1,9 @@
+LIBRARY SUMMARY:
+Library_id: (3, 0, 9, 0, 42, 5, 40, 0, 2, 0, 0, 4, 5, 44)
+Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN18107_1
+Headpiece_smiles: [13CH3]CO
+Add cycle 1 through reaction: X.X.X_Nucleophilic_substitution_FROM_alcohols_AND_amines_aliphatic
+Add Deprotection at cycle 1: X.X.X_Nitro-fluoro_FROM_amines-aliphatic_AND_Null.rxn
+Add cycle 2 through reaction: 1.3.8_Fluoro_N-arylation_FROM_nitro_fluoro_AND_amines.rxn
+Add cycle 3 through reaction: X.X.X_Carboxylic_acid_+_nitro_condensation_FROM_o_nitro_sec_aniline_AND_carboxylic_acids.rxn
+

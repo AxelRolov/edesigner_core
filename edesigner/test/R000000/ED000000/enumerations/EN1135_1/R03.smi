@@ -1,0 +1,7 @@
+S=[3CH]NCC#C 6:enamine_test:EN300-112450
+S=[3CH]NC1=CC=C(N(=O)=O)C=C1 11:enamine_test:EN300-20963
+S=[3CH]NC1=CC(=CC=C1)N(=O)=O 11:enamine_test:EN300-140686
+S=[3CH]NC1=CC(=CC=C1Br)N(=O)=O 11:enamine_test:EN300-8194429
+S=[3CH]NC1=CC(Br)=CC=C1C(=O)O 11:enamine_test:EN300-23927388
+S=[3CH]NC1=C(C=C(Br)C=C1)C(=O)O 11:enamine_test:EN300-8809294
+S=[3CH]NC1=CC(=CC=C1Br)C(=O)O 11:enamine_test:EN300-6490997

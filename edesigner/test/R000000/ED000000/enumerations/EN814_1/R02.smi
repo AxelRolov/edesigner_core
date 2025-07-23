@@ -1,0 +1,9 @@
+N#CC1(C[2SH](=O)=O)CNC1 9:enamine_test:EN300-6738228
+N#CC1=C([2SH](=O)=O)C=CC=C1Br 10:enamine_test:EN300-202535
+N#CC1=CC(=CC=C1Br)[2SH](=O)=O 10:enamine_test:EN300-223066
+N#CC1=CC(Br)=C([2SH](=O)=O)C=C1 10:enamine_test:EN300-31013
+[2SH](=O)(=O)C1=CC=C(O1)N(=O)=O 10:enamine_test:EN300-1987089
+[2SH](=O)(=O)C1=C(SC=C1)N(=O)=O 10:enamine_test:EN300-74970
+[2SH](=O)(=O)C1=C(NN=C1)N(=O)=O 10:enamine_test:EN300-45530
+NC1=C(SC=C1)[2SH](=O)=O 9:enamine_test:EN300-160613
+BrC1=C(C=C(S1)[2SH](=O)=O)N(=O)=O 10:enamine_test:EN300-75541

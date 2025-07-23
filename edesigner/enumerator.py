@@ -509,7 +509,7 @@ class Enumerator:
 
 
     def run_graph_enumeration(self, multireaction, preparations, enum_deprotection, enum_reaction,
-                              n=0, chunksize=400000, just_json=False):
+                              n=0, chunksize=40000000, just_json=False):
         """Runs an enumeration for the instance of the class through graph_enumerator
         base_foldr: str: path to the base folder
         multireaction: instance of Par class coding the multireaction parameters
@@ -520,9 +520,10 @@ class Enumerator:
         returns: str: path to the enumerated library"""
         self.write_graph_enumeration_json(multireaction, preparations, enum_deprotection)
         self.write_summary_file(enum_reaction, enum_deprotection)
+        self.write_bbs_files()
         if not just_json:
             # write the source building block files
-            self.write_bbs_files()
+            #self.write_bbs_files()  # TODO why gather building blocks if not writing them down?
             # instantiate the graph enumerator
             gen = SynthGraph(self.wfolder, os.path.join(self.wfolder, "config.json"), n=n, chunksize=chunksize)
             gen.run_graph()

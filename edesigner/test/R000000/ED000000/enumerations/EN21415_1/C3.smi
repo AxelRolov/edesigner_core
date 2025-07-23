@@ -1,0 +1,9 @@
+O=CC1=C(Br)C=NN1 6:enamine_test:EN300-216079
+O=CC1=NC(=CS1)Br 6:enamine_test:EN300-110042
+O=CC1=CC(=CO1)Br 6:enamine_test:EN300-58965
+O=CC(C)(C)CO 6:enamine_test:EN300-108646
+O=CCCCCO 6:enamine_test:EN300-123851
+O=CC(=O)O 4:enamine_test:EN300-20485
+O=CCCC(=O)OC 5:enamine_test:EN300-187997
+O=CCCCC(=O)OC 6:enamine_test:EN300-88713
+O=CC[C@H](NC(=O)OC(C)(C)C)C(=O)OC 6:enamine_test:EN300-702565

@@ -109,7 +109,8 @@ def intialization(wfolder):
     if args.parameters_folder is not None:
         for file in os.listdir(args.parameters_folder):
             if file.endswith('par'):
-                shutil.copy(os.paht.join(args.parameters_folder, file), os.path.join(RESOURCESFOLDER, file))
+                shutil.copy(os.path.join(args.parameters_folder, file), os.path.join(RESOURCESFOLDER, file))
+        PARFOLDER = args.parameters_folder  # in this case the function is not imported
     else:  # if parameters are not provided we use the repo parameters
         for file in os.listdir(os.path.join(os.environ['EDESIGNER_FOLDER'], 'resources')):
             if file.endswith('par'):

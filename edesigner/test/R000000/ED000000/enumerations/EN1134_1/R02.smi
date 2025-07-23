@@ -1,0 +1,7 @@
+N#CC([2NH2])CO 5:enamine_test:EN300-137306
+[2NH2]CCNC1=C(N(=O)=O)C=CC=C1 12:enamine_test:EN300-13816
+C#CC([2NH2])C1=CC(Br)=CC=C1 10:enamine_test:EN300-7491894
+N1CC([2NH2])(C2=NC(=CS2)Br)C1 10:enamine_test:EN300-7427482
+O=C(O)C([2NH2])CC1=CSC(=C1)N(=O)=O 12:enamine_test:EN300-37458932
+O=C(O)C([2NH2])C1=CC(=CC=C1)N(=O)=O 12:enamine_test:EN300-7473561
+OC[C@@H]([2NH2])C1=CC(=CC=C1)N(=O)=O 12:enamine_test:EN300-1859730

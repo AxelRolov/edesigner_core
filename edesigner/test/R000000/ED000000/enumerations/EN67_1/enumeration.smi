@@ -1,0 +1,4 @@
+[13CH3]CNC1=NC=C([C@@H](N)CC2=NN=C(O2)C2=CC=C(SC3=C(O)C(=CC(=C3)CNC3=CN(C)N=C3)OC)C=C2)S1 headpiece+7:enamine_test:EN300-7492003+8:enamine_test:EN300-673696+17:enamine_test:EN300-55703
+[13CH3]CNC1=NC=C(C[C@@H](N)C2=NN=C(O2)C2=CC=C(SC3=C(O)C(=CC(=C3)CNC3=CN(C)N=C3)OC)C=C2)S1 headpiece+7:enamine_test:EN300-37137740+8:enamine_test:EN300-673696+17:enamine_test:EN300-55703
+[13CH3]CNC1=NC=C(CCC2=NN=C(O2)C2=CC=C(SC3=C(O)C(=CC(=C3)CNC3=CN(C)N=C3)OC)C=C2)S1 headpiece+6:enamine_test:EN300-114360+8:enamine_test:EN300-673696+17:enamine_test:EN300-55703
+[13CH3]CNC1=NC(=C(CC2=NN=C(O2)C2=CC=C(SC3=C(O)C(=CC(=C3)CNC3=CN(C)N=C3)OC)C=C2)S1)C headpiece+7:enamine_test:EN300-249165+8:enamine_test:EN300-673696+17:enamine_test:EN300-55703

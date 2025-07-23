@@ -1,0 +1,166 @@
+[
+  {
+    "node": 0,
+    "bbs_file": "/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN6586_1/C0.smi",
+    "preparations": [
+      {
+        "keep_unprepared": false,
+        "reaction": "${EDESIGNER_PREPS}/prepare_alcohols-primary_as_electrophile.rxn",
+        "edges": [
+          1
+        ]
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.1_N-Boc_deprotection_FROM_boc_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/9.7.61_Ester_hydrolysis_FROM_esters-methyl-ethyl_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.6_N-Fmoc_deprotection_FROM_fmoc_AND_Null.rxn"
+      }
+    ],
+    "edges": [
+      1
+    ],
+    "cycle_edges": [],
+    "bond_orders": [
+      1
+    ],
+    "cycle_bond_orders": [],
+    "out_edges": [
+      0
+    ]
+  },
+  {
+    "node": 1,
+    "bbs_file": "/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN6586_1/C1.smi",
+    "preparations": [
+      {
+        "keep_unprepared": false,
+        "reaction": "${EDESIGNER_PREPS}/prepare_amines-aliphatic-primary_as_nucleophilic-triazine-dielectrophile.rxn",
+        "edges": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.1_N-Boc_deprotection_FROM_boc_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/9.7.61_Ester_hydrolysis_FROM_esters-methyl-ethyl_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.6_N-Fmoc_deprotection_FROM_fmoc_AND_Null.rxn"
+      }
+    ],
+    "edges": [
+      1,
+      2,
+      3
+    ],
+    "cycle_edges": [],
+    "bond_orders": [
+      1,
+      1,
+      1
+    ],
+    "cycle_bond_orders": [],
+    "out_edges": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "node": 2,
+    "bbs_file": "/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN6586_1/C2.smi",
+    "preparations": [
+      {
+        "keep_unprepared": false,
+        "reaction": "${EDESIGNER_PREPS}/prepare_NAS-nucleophile_as_nucleophile.rxn",
+        "edges": [
+          2
+        ]
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.1_N-Boc_deprotection_FROM_boc_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/9.7.61_Ester_hydrolysis_FROM_esters-methyl-ethyl_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.6_N-Fmoc_deprotection_FROM_fmoc_AND_Null.rxn"
+      }
+    ],
+    "edges": [
+      2
+    ],
+    "cycle_edges": [],
+    "bond_orders": [
+      1
+    ],
+    "cycle_bond_orders": [],
+    "out_edges": [
+      0
+    ]
+  },
+  {
+    "node": 3,
+    "bbs_file": "/home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN6586_1/C3.smi",
+    "preparations": [
+      {
+        "keep_unprepared": false,
+        "reaction": "${EDESIGNER_PREPS}/prepare_NAS-nucleophile_as_nucleophile.rxn",
+        "edges": [
+          3
+        ]
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.1_N-Boc_deprotection_FROM_boc_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/9.7.61_Ester_hydrolysis_FROM_esters-methyl-ethyl_AND_Null.rxn"
+      },
+      {
+        "edges": [],
+        "keep_unprepared": true,
+        "reaction": "${DEPROTECTION_FOLDER}/6.1.6_N-Fmoc_deprotection_FROM_fmoc_AND_Null.rxn"
+      }
+    ],
+    "edges": [
+      3
+    ],
+    "cycle_edges": [],
+    "bond_orders": [
+      1
+    ],
+    "cycle_bond_orders": [],
+    "out_edges": [
+      0
+    ]
+  }
+]

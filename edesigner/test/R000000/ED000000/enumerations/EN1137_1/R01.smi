@@ -1,0 +1,5 @@
+[2CH3]C1=CC(Br)=CC([1NH2])=C1 9:enamine_test:EN300-2980552
+[2CH3]C1=CC([1NH2])=CN=C1Br 9:enamine_test:EN300-25046434
+[2CH3]C1=C([1NH2])C(Br)=CC=C1 9:enamine_test:EN300-320921
+[2CH3][C@@H]1[1NH][C@@H](C1)C(=O)O 8:enamine_test:EN300-45381737
+[2CH3]C([1NH2])C#C 6:enamine_test:EN300-233538

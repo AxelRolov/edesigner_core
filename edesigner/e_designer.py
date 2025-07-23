@@ -230,6 +230,7 @@ def create_libdesigns(args, na_dist, par, deprotection, BBTs, reaction, log, RUN
                     break
         os.remove(os.path.join(RUNFOLDER, 'results', file))
         for design in designs:
+            print(design.lib_id)
             if design.lib_id not in lib_dict.keys():
                 lib_dict[design.lib_id] = LibDesign(par)
             lib_dict[design.lib_id].update_lib(design, reaction, deprotection, args.run_id, RUNNAME)
@@ -281,6 +282,7 @@ if __name__ == '__main__':
     log.update('**** READING PARAMETERS ****')
     bblim = Parameters(os.path.join(RESOURCESFOLDER, 'bblim.par'), fsource='dict', how='to_dict', multiple=False)
     par = Parameters(os.path.join(PARFOLDER, 'par.par'), fsource='dict', how='to_dict', multiple=False)
+    par.par["hpc"] = False
     fg = Parameters(os.path.join(RESOURCESFOLDER, 'fg.par'), fsource='list', how='to_list', multiple=True)
     reaction = Parameters(os.path.join(RESOURCESFOLDER, 'reaction.par'), fsource='list', how='to_list', multiple=True)
     enum_reaction = Parameters(os.path.join(RESOURCESFOLDER, 'enum_reaction.par'), fsource='list', how='to_list', multiple=True)

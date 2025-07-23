@@ -1,0 +1,14 @@
+OC[C@@H]([2NH]C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-])CN 6:enamine_test:EN300-393792
+[2NH](C(CO)CO)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 6:enamine_test:EN300-84186
+[2NH](CC(CO)CO)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 7:enamine_test:EN300-123867
+[2NH]([C@@H](CN)C(=O)O)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 6:enamine_test:EN300-7371045
+[2NH](C1(C(=O)O)CNC1)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 7:enamine_test:EN300-2008127
+OC[C@H]([2NH]C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-])C(=O)O 6:enamine_test:EN300-71341
+OCC(C)([2NH]C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-])C(=O)O 7:enamine_test:EN300-247836
+OCC1([2NH]C(=O)C2=CC=[3CH]C(=C2)[N+](=O)[O-])CNC1 7:enamine_test:EN300-1694201
+[2NH](CC1=CN=C(Br)S1)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 7:enamine_test:EN300-200026
+[2NH](CC1=CC=C(I)S1)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 7:enamine_test:EN300-39669230
+[2NH](CC1=C(Br)C=CS1)C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-] 7:enamine_test:EN300-59502
+C#CCC([2NH]C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-])C(=O)O 7:enamine_test:EN300-250912
+C#CC1([2NH]C(=O)C2=CC=[3CH]C(=C2)[N+](=O)[O-])CNC1 7:enamine_test:EN300-764023
+OCC([2NH]C(=O)C1=CC=[3CH]C(=C1)[N+](=O)[O-])C#C 6:enamine_test:EN300-233538

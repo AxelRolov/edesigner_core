@@ -1,0 +1,5 @@
+OCC1=CC(Br)=CC(N)=C1 9:enamine_test:EN300-2980552
+OCC1=CC(N)=CN=C1Br 9:enamine_test:EN300-25046434
+OCC1=C(N)C(Br)=CC=C1 9:enamine_test:EN300-320921
+OC[C@@H]1N[C@@H](C1)C(=O)OC 8:enamine_test:EN300-45381737
+OCC(N)C#C 6:enamine_test:EN300-233538

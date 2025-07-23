@@ -7,7 +7,7 @@ max_scaffolds_na	int		maximum number of atoms coming from scaffods for each macr
 headpiece_na	int		Number of atoms of the headpiece that will be transferred to the final molecule atom count	2
 min_count	int		Minimum member of compounds in the library if it was produced with internal or with all compounds (depending on how parameter)	1000
 include_designs	str		(PRODUCTION, BOTH) Which classes of reactions can be included (only oproduction or both production and development)	BOTH
-designs_in_memory	int		Number of designs that can be held in memory to expand to the next cycle	20000
+designs_in_memory	int		Number of designs that can be held in memory to expand to the next cycle	200000000
 final_compounds_folder	str		Name of the compounds folder to be included in the configuration file	<compounds_folder>/
 final_reactions_folder	str		Name of the reactions folder to be included in the configuration file	<reaction_folder>/
 how	str		How to evaluate number of compounds requirements ['internal','all']	all

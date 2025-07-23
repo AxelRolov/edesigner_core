@@ -1,0 +1,12 @@
+NCC(=O)OC 4:enamine_test:EN300-17817
+NCC(=O)OCC 5:enamine_test:EN300-45099
+NCCNC(=O)OC(C)(C)C 4:enamine_test:EN300-51287
+O=C(NC[C@@H](N)C)OC(C)(C)C 5:enamine_test:EN300-178642
+O=C(OC(C)(C)C)N1CC(N)C1 5:enamine_test:EN300-79049
+NCCN(C)C(=O)OC(C)(C)C 5:enamine_test:EN300-64726
+C#CC(N)C 5:enamine_test:EN300-152999
+OC[C@@H](N)C 5:enamine_test:EN300-86282
+OCCCN 5:enamine_test:EN300-16772
+NCCCC 5:enamine_test:EN300-19577
+NC1(C)CC1 5:enamine_test:EN300-80684
+NCC1CC1 5:enamine_test:EN300-27211
