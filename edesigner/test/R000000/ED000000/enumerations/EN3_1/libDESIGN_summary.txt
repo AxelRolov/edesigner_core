@@ -1,9 +1,0 @@
-LIBRARY SUMMARY:
-Library_id: (3, 0, 5, 0, 6, 13, 43, 0, 3, 0, 0, 4, 3, 20)
-Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN3_1
-Headpiece_smiles: [13CH3]CN
-Add cycle 1 through reaction: 1.8.5_NAS_FROM_calc_NAS_nuclephile_AND_NAS_electrophile.rxn
-Add Deprotection at cycle 1: 9.7.61_Ester_hydrolysis_FROM_esters-methyl-ethyl_AND_Null.rxn
-Add cycle 2 through reaction: 2.1.2_Carboxylic_acid_+_amine_condensation_FROM_carboxylic_acids_AND_amines.rxn
-Add cycle 3 through reaction: X.X.X_124_oxadiazole_synthesis_FROM_nitriles_AND_carboxylic_acids
-

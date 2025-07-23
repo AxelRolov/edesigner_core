@@ -1,5 +1,0 @@
-N(CCNC1=C(N(=O)=O)C=CC=C1)[3CH]=[NH] 12:enamine_test:EN300-13816
-O=C(O)C(N[3CH]=[NH])CC1=CSC(=C1)N(=O)=O 13:enamine_test:EN300-6763766
-O=C(O)[C@@H](N[3CH]=[NH])CC1=CC(=CC=C1)N(=O)=O 14:enamine_test:EN300-316583
-O=C(O)[C@@H](N[3CH]=[NH])CNC1=CC=CC=C1 13:enamine_test:EN300-27755247
-N(CC1=C(N(C)N=C1C)NC1CNC1)[3CH]=[NH] 14:enamine_test:EN300-7494523

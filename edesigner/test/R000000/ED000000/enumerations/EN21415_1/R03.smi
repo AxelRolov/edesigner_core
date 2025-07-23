@@ -1,9 +1,0 @@
-[3CH3]C1=C(Br)C=NN1 6:enamine_test:EN300-216079
-[3CH3]C1=NC(=CS1)Br 6:enamine_test:EN300-110042
-[3CH3]C1=CC(=CO1)Br 6:enamine_test:EN300-58965
-[3CH3]C(C)(C)CO 6:enamine_test:EN300-108646
-[3CH3]CCCCO 6:enamine_test:EN300-123851
-[3CH3]C(=O)O 4:enamine_test:EN300-20485
-[3CH3]CCC(=O)O 5:enamine_test:EN300-187997
-[3CH3]CCCC(=O)O 6:enamine_test:EN300-88713
-[3CH3]C[C@H](N)C(=O)O 6:enamine_test:EN300-702565

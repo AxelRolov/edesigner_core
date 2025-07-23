@@ -1,6 +1,0 @@
-OCC(N[2CH]=[NH])C1=CC(=CC=C1)N 11:enamine_test:EN300-1880005
-N1CCC(N[2CH]=[NH])C2=CC(Br)=CC=C12 11:enamine_test:EN300-631694
-N(CCNC1=CC(Br)=CC=C1)[2CH]=[NH] 10:enamine_test:EN300-128060
-N(CC(N)C1=C(Br)C=CC=C1)[2CH]=[NH] 10:enamine_test:EN300-1879826
-NCC(N[2CH]=[NH])CC1=CC(Br)=CC=C1 11:enamine_test:EN300-1879233
-N1CC(N[2CH]=[NH])(C2=NC(=CS2)Br)C1 10:enamine_test:EN300-7427482

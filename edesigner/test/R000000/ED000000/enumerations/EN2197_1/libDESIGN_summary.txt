@@ -1,8 +1,0 @@
-LIBRARY SUMMARY:
-Library_id: (3, 0, 0, 0, 21, 1, 24, 0, 0, 0, 0, 3, 5, 4)
-Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN2197_1
-Headpiece_smiles: [13CH3]CN=N#N
-Add cycle 1 through reaction: 4.1.1_1_2_3-Triazole_synthesis_FROM_azide_AND_alkynes_terminal.rxn
-Add cycle 2 through reaction: 1.2.1_Aldehyde_reductive_amination_FROM_aldehydes_AND_amines.rxn
-Add cycle 3 through reaction: 4.1.11_Larock_indole_synthesis_FROM_o_iodo_aniline_AND_alkynes_terminal.rxn
-

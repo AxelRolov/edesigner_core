@@ -1,8 +1,0 @@
-O=C(OC(C)(C)C)NC1=CC=NC(=C1)N=N#N 10:enamine_test:EN300-7438174
-N#N=NC1=CC=C(NC)C=C1 11:enamine_test:EN300-7729937
-O=C(O)C1=CC(Br)=CC(=C1)N=N#N 12:enamine_test:EN300-7499307
-O=C(O)C1=C(C=C(Br)C=C1)N=N#N 12:enamine_test:EN300-43394151
-O=C(O)[C@H](N)CN=N#N 9:enamine_test:EN300-6730697
-OC(=O)[C@@H](NC(=O)OC(C)(C)C)CN=N#N 9:enamine_test:EN300-1717211
-OC1=CC(=C(N=N#N)C=C1)N(=O)=O 12:enamine_test:EN300-253797
-N#CC1=CC(=CC=C1N=N#N)N(=O)=O 12:enamine_test:EN300-279653

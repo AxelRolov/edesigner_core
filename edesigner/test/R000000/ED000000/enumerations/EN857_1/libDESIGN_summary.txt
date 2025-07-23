@@ -1,8 +1,0 @@
-LIBRARY SUMMARY:
-Library_id: (3, 0, 0, 0, 38, 21, 31, 0, 0, 0, 0, 3, 6, 20)
-Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN857_1
-Headpiece_smiles: [13CH3]CN
-Add cycle 1 through reaction: X.X.X_Aminothiazole_synthesis_FROM_amines_aliphatic_AND_ketones_a_bromo.rxn
-Add cycle 2 through reaction: 4.1.1_1_2_3-Triazole_synthesis_FROM_azide_AND_alkynes_terminal.rxn
-Add cycle 3 through reaction: 4.1.60_Pyrazole_synthesis_FROM_hydrazines_primary_AND_ynones.rxn
-

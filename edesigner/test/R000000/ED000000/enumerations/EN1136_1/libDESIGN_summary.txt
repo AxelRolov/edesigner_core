@@ -1,8 +1,0 @@
-LIBRARY SUMMARY:
-Library_id: (3, 0, 0, 0, 13, 42, 38, 0, 0, 0, 0, 3, 5, 5)
-Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN1136_1
-Headpiece_smiles: [13CH3]CC(=O)O
-Add cycle 1 through reaction: 2.1.2_Carboxylic_acid_+_amine_condensation_FROM_carboxylic_acids_AND_amines.rxn
-Add cycle 2 through reaction: X.X.X_Nucleophilic_substitution_FROM_alcohols_AND_amines_aliphatic
-Add cycle 3 through reaction: X.X.X_Aminothiazole_synthesis_FROM_amines_aliphatic_AND_ketones_a_bromo.rxn
-

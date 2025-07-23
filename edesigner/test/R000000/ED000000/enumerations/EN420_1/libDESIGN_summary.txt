@@ -1,9 +1,0 @@
-LIBRARY SUMMARY:
-Library_id: (3, 0, 3, 0, 12, 41, 25, 0, 3, 0, 0, 4, 5, 3)
-Working_folder: /home/aorlov/Programs/lilytools/edesigner_new/edesigner_core/edesigner/test/R000000/ED000000/enumerations/EN420_1
-Headpiece_smiles: [13CH3]CNC
-Add cycle 1 through reaction: 2.1.2_Carboxylic_acid_+_amine_condensation_FROM_amines_AND_carboxylic_acids.rxn
-Add Deprotection at cycle 1: 6.1.6_N-Fmoc_deprotection_FROM_fmoc_AND_Null.rxn
-Add cycle 2 through reaction: 9.7.8_Amino_to_guanidino_FROM_amines_aliphatic_AND_amines_aliphatic_primary.rxn
-Add cycle 3 through reaction: 4.1.12_Imidazole_synthesis_FROM_guanidines_tertiary_all_AND_ketones_a_bromo.rxn
-
